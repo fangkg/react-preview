@@ -6,6 +6,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import logo from "./logo.svg"
+import store from "./store/index"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -58,3 +59,9 @@ serviceWorker.unregister();
 // )
 // ReactDOM.render(jsx, document.getElementById("root"))
 
+
+// store中state发生变化时更新页面
+store.subscribe(() => {
+  // 重新渲染页面
+  ReactDOM.render(<App/>, document.getElementById("root"))
+})

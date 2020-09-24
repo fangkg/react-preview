@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import ClassComponent from "./views/ClassComponent"
 import FunctionComponent from "./views/FunctionComponent"
+import HomePage from './views/HomePage';
+import UserPage from './views/UserPage'
 
 function App() {
   // return (
@@ -26,6 +28,8 @@ function App() {
   return <div className="App">
     {/* <ClassComponent/> */}
     <FunctionComponent/>
+    {/* <HomePage/>
+    <UserPage/> */}
   </div>
 }
 
