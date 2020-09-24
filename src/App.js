@@ -4,7 +4,8 @@ import './App.css';
 import ClassComponent from "./views/ClassComponent"
 import FunctionComponent from "./views/FunctionComponent"
 import HomePage from './views/HomePage';
-import UserPage from './views/UserPage'
+import UserPage from './views/UserPage';
+import RouterPage from './views/RouterPage';
 
 function App() {
   // return (
@@ -27,9 +28,10 @@ function App() {
   // );
   return <div className="App">
     {/* <ClassComponent/> */}
-    <FunctionComponent/>
+    {/* <FunctionComponent/> */}
     {/* <HomePage/>
     <UserPage/> */}
+    <RouterPage/>
   </div>
 }
 

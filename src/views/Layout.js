@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import TopBar from "../components/TopBar";
-import BottomBar from "../components/BottomBar";
+import TopBar from "../components/TopBar.vue";
+import BottomBar from "../components/BottomBar.vue";
 
 export default class Layout extends Component {
     componentDidMount() {
